@@ -38,7 +38,7 @@ const fetchWeather = async (coords: Coords): Promise<WeatherData> => {
 
     const q = `${latitude},${longitude}`;
     const res = await fetch(
-        `https://api.weatherapi.com/v1/current.json?key=${  process.env.VUE_APP_API  }&q=${q}`
+        `https://api.weatherapi.com/v1/current.json?key=${  import.meta.env.VUE_APP_API  }&q=${q}`
     );
     const data = await res && res.json();
     return data;
