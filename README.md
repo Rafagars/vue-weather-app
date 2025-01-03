@@ -12,17 +12,21 @@ This project is a simple weather application built using Vue 3, TypeScript, and 
 ## Getting Started
 
 1. **Clone the repository:**
-bash git clone git@github.com:Rafagars/vue-weather-app.git
-
+```
+git clone git@github.com:Rafagars/vue-weather-app.git
+```
 2. **Install dependencies:**
-bash npm install
+```
+npm install
+```
 
 3. **Obtain a Weather API key:**
    - Sign up for a free API key from a weather data provider (e.g., OpenWeatherMap, WeatherAPI).
    - Create a `.env` file in the root directory and add your API key:
-
+```
  VITE_WEATHER_API_KEY=your_api_key
-
+```
 4. **Run the development server:**
-
-bash npm run dev
+```
+npm run dev
+```
