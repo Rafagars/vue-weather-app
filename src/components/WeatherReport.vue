@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted } from "vue";
 import type { Ref } from 'vue';
-import WindDierction from "./WindDierction.vue";
+import WindDirection from "./WindDirection.vue";
 
 type WeatherData = {
     location: {
