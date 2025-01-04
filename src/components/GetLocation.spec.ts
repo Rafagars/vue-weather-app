@@ -25,5 +25,9 @@ describe("GetLocation", () => {
             getCurrentPosition: mockGeoLocation,
         };
         const wrapper = await shallowMount(GetLocation);
-    });
+        expect(wrapper.vm.coords).toEqual({
+            latitude: 51.5074,
+            longitude: -0.1278,
+          });
+        });    
 })
